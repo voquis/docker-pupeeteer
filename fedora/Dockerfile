@@ -34,5 +34,5 @@ RUN yum install -y \
 RUN yum update nss -y
 
 # Create a new limit-privilege non-root user and switch to this user
-RUN useradd -ms /bin/bash jest
-USER jest
+RUN useradd -ms /bin/bash puppeteer
+USER puppeteer
